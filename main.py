@@ -33,8 +33,6 @@ def main():
     text = input()
     mismatch = find_mismatch(text)
     # Printing answer, write your code here
-    if 'I' in text:
-        text = input()
     print(mismatch)
 
 main()
