@@ -36,6 +36,7 @@ def main():
         text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
-main()
+if __name__ == "__main__":        
+    main()
 
 
